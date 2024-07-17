@@ -1,0 +1,59 @@
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  gap: 8px;
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.feedback-form input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  height: 40px;
+  cursor: pointer;
+}
+.feedback-form textarea {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.feedback-form input:hover,
+.feedback-form textarea:hover {
+  border: 1px solid #000;
+}
+
+.feedback-form input:hover,
+.feedback-form textarea:active {
+  border: 1px solid #808080;
+}
+
+.button-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+  margin-top: 8px;
+  cursor: pointer;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.button-form:hover {
+  background: #6c8cff;
+}
